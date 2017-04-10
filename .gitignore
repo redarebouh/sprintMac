@@ -1,0 +1,13 @@
+#Dossiers
+#	IntelliJ
+target/
+.idea/
+
+#====================
+#Fichiers
+#	IntelliJ
+*.iml
+
+#	Autre
+*.orig
+*~
