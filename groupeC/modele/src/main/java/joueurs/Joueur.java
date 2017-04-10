@@ -6,26 +6,16 @@ package joueurs;
 public class Joueur {
 
 
-    private int id;
-    private String pseudo;
+    private String pseudo; // le pseudo est unique
     private String password;
 
-    private static int identifiant=0;
+
 
     public Joueur(String nom,String mdp){
-        this.id = identifiant;
         this.pseudo = nom;
         this.password = mdp;
-        identifiant++;
     }
 
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
-    }
 
     public String getPseudo() {
         return pseudo;
