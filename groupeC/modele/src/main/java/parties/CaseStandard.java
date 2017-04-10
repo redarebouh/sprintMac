@@ -7,11 +7,11 @@ public class CaseStandard extends Case {
 
     public CaseStandard(int x, int y, String pseudoJoueur) {
         super(x, y, pseudoJoueur);
-        this.isSortie = false;
+        this.sortie = false;
     }
 
     public CaseStandard(int x, int y, String pseudoJoueur, Fantome fantome) {
         super(x, y, pseudoJoueur, fantome);
-        this.isSortie = false;
+        this.sortie = false;
     }
 }
